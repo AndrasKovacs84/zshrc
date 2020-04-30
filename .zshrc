@@ -3,6 +3,9 @@
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/apha/.oh-my-zsh"
+export XDG_CONFIG_HOME="$HOME/.config"
+export XDG_DATA_HOME="$HOME/.local/share/"
+
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -124,6 +127,6 @@ bindkey -M menuselect 'k' vi-up-line-or-history
 bindkey -M menuselect 'l' vi-forward-char
 bindkey -M menuselect 'j' vi-down-line-or-history
 
-bindkey -M viins 'jj' vi-cmd-mode
+bindkey -M viins 'ii' vi-cmd-mode
 bindkey -r "^["
 
